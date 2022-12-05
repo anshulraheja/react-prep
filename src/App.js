@@ -1,6 +1,10 @@
-import {} from './component';
+import { FileExplorer } from './component';
 function App() {
-  return <div>hello</div>;
+  return (
+    <div>
+      <FileExplorer />
+    </div>
+  );
 }
 
 export default App;
