@@ -3,6 +3,7 @@ import CountdownTimer from './component/CountdownTimer';
 import TimerWrapper from './component/CountdownTimer/TimerWrapper';
 import StatusToggle from './component/StatusToggle/index';
 import Testing from './component/Testing/Testing';
+import VideoPlay from './component/VideoPlayer/VideoPlay';
 function App() {
   return (
     <div>
@@ -10,7 +11,8 @@ function App() {
       {/* <CountdownTimer /> */}
       {/* <TimerWrapper /> */}
       {/* <StatusToggle /> */}
-      <Testing/>
+      {/* <Testing/> */}
+      <VideoPlay />
     </div>
   );
 }
